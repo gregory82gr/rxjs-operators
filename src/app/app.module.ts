@@ -13,6 +13,9 @@ import { MergeMapOperatorComponent } from './transformation/merge-map-operator/m
 import { ConcatMapOperatorComponent } from './transformation/concat-map-operator/concat-map-operator.component';
 import { ExhaustMapOperatorComponent } from './transformation/exhaust-map-operator/exhaust-map-operator.component';
 import { MergeOperatorComponent } from './join/merge-operator/merge-operator.component';
+import { OfOperatorComponent } from './creation/of-operator/of-operator.component';
+import { FromOperatorComponent } from './creation/from-operator/from-operator.component';
+import { FromEventOperatorComponent } from './creation/from-event-operator/from-event-operator.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { MergeOperatorComponent } from './join/merge-operator/merge-operator.com
     MergeMapOperatorComponent,
     ConcatMapOperatorComponent,
     ExhaustMapOperatorComponent,
-    MergeOperatorComponent
+    MergeOperatorComponent,
+    OfOperatorComponent,
+    FromOperatorComponent,
+    FromEventOperatorComponent
   ],
   imports: [
     BrowserModule,
