@@ -16,6 +16,8 @@ import { MergeOperatorComponent } from './join/merge-operator/merge-operator.com
 import { OfOperatorComponent } from './creation/of-operator/of-operator.component';
 import { FromOperatorComponent } from './creation/from-operator/from-operator.component';
 import { FromEventOperatorComponent } from './creation/from-event-operator/from-event-operator.component';
+import { ForkJoinOperatorComponent } from './join/fork-join-operator/fork-join-operator.component';
+import { ReduceNewOperatorComponent } from './mathematical/reduce-operator/reduce-operator.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { FromEventOperatorComponent } from './creation/from-event-operator/from-
     MergeOperatorComponent,
     OfOperatorComponent,
     FromOperatorComponent,
-    FromEventOperatorComponent
+    FromEventOperatorComponent,
+    ForkJoinOperatorComponent,
+    ReduceNewOperatorComponent
   ],
   imports: [
     BrowserModule,
